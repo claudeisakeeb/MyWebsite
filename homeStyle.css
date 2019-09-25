@@ -41,7 +41,7 @@
 #banner{
   width: 100%;
   min-height: 600px;
-  background: url(banner.jpg) 50% -1200px;
+  background: url(./img/banner.jpg) 50% -1200px;
   background-attachment: fixed;
   text-align: center;
   vertical-align: middle;
