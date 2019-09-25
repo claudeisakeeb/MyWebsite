@@ -6,7 +6,7 @@
 /* NAV BAR */
 
 #nav-bar{
-  background-color: black;
+  background-color: #0A1130;
   color: white;
   width: 100%;
   margin: auto;
@@ -40,7 +40,7 @@
 /*BANNER */
 #banner{
   width: 100%;
-  min-height: 600px;
+  min-height: 100%;
   background: url(./img/banner.jpg) 50% -1200px;
   background-attachment: fixed;
   text-align: center;
@@ -60,10 +60,6 @@
   text-align: center;
   padding-top: 10px;
   height: 350px;
-  font-family: courier;
-}
-
-#skills #heading{
   font-family: Montserrat;
 }
 
@@ -92,4 +88,14 @@
 #skills img{
   width: 100px;
   height: 100px;
+}
+
+/*FOOTER*/
+#footer{
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #FF5C00;
+  font-family: Montserrat;
+  color: white;
 }
