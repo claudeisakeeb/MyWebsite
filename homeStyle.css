@@ -64,7 +64,8 @@
 }
 
 #skills li{
-  list-style-type: none;
+  /*list-style-type: none;*/
+  list-style-position: inside;
 }
 
 #skills .skillHead{
@@ -91,11 +92,20 @@
 }
 
 /*FOOTER*/
-#footer{
+footer{
+  width: 100%;
+  clear: both;
   height: 100px;
   text-align: center;
-  line-height: 100px;
   background-color: #FF5C00;
   font-family: Montserrat;
   color: white;
+  line-height: 100px;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+footer p{
+  padding-top:
 }
